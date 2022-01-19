@@ -1,15 +1,17 @@
 {
   "name": "@pick/core",
+  "description": "Core functionalities for pick client",
   "version": "0.0.2",
   "main": "dist/commonjs/index.js",
   "license": "MIT",
   "scripts": {
-    "test": "echo \"Hello world!\""
+    "test": "echo \"Hello world!\"",
+    "prepublish": "echo \"Run build...\"",
+    "postpublish": "echo \"Publish a message with a new version\""
   },
   "author": {
     "name": "Miguel González",
     "url": "https://migpalg.dev",
     "email": "migpalg@gmail.com"
-  },
-  "gitHead": "b0b685e8d5564b9a924ccd679b758ec471f515a5"
+  }
 }
