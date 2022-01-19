@@ -1,0 +1,16 @@
+{
+  "name": "@pick/core",
+  "version": "0.0.0",
+  "main": "dist/commonjs/index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Hello world!\""
+  },
+  "author": {
+    "name": "Miguel González",
+    "url": "https://migpalg.dev",
+    "email": "migpalg@gmail.com"
+  },
+  "devDependencies": {},
+  "dependencies": {}
+}

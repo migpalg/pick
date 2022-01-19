@@ -1,0 +1,11 @@
+{
+  "npmClient": "yarn",
+  "version": "0.0.0",
+  "packages": ["packages/*"],
+  "workspaces": true,
+  "command": {
+    "publish": {
+      "registry": "http://localhost:4873"
+    }
+  }
+}
