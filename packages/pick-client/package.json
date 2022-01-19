@@ -1,0 +1,17 @@
+{
+  "name": "@pick/client",
+  "description": "A extensible HTTP client",
+  "version": "0.0.3",
+  "main": "dist/commonjs/index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Hello world!\"",
+    "prepublish": "echo \"Run build...\"",
+    "postpublish": "echo \"Publish a message with a new version\""
+  },
+  "author": {
+    "name": "Miguel González",
+    "url": "https://migpalg.dev",
+    "email": "migpalg@gmail.com"
+  }
+}
