@@ -1,7 +1,7 @@
 {
   "name": "@pick/client",
   "description": "A extensible HTTP client",
-  "version": "0.0.0",
+  "version": "0.0.4",
   "main": "dist/commonjs/index.js",
   "license": "MIT",
   "scripts": {
