@@ -1,1 +1,3 @@
-export const sayHi = (name: string): string => `Hello, ${name}!`;
+/**
+ * Root export for package
+ */

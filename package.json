@@ -5,6 +5,7 @@
   "private": true,
   "scripts": {
     "admin": "node scripts/admin",
+    "build": "lerna run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [

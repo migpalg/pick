@@ -5,8 +5,10 @@
   "main": "dist/commonjs/index.js",
   "license": "MIT",
   "scripts": {
+    "admin": "node ../../scripts/admin",
+    "build": "yarn admin build --type=commonjs,types",
     "test": "echo \"Hello world!\"",
-    "prepublish": "echo \"Run build...\"",
+    "prepublish": "yarn run build",
     "postpublish": "echo \"Publish a message with a new version\""
   },
   "author": {

@@ -1,1 +1,1 @@
-export const sayHi = (name: string): string => `Hello, ${name}!`;
+export * from "./client/client";
